@@ -26,7 +26,8 @@ This project involves web scraping data from Wikipedia using R. Specifically, ex
 ## Contributor
 Tolulope Olarewaju
 ## Acknowledgement
-Grateful to RStudio for providing a powerful and reliable system that served as the foundation for these projects.
++ Grateful to RStudio for providing a powerful and reliable system that served as the foundation for these projects.
++ Grateful to the Data Professor (on YouTube) for deepening my understanding of R Programming.
 ## License
 ## Contact
 For questions or feedback, please contact olarewajutolulope26@gmail.com
