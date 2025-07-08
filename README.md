@@ -1,33 +1,111 @@
-# BMI Web App | Expenses | Web scraping with R
+# 📊 R Projects: BMI Web App | Expenses Analysis | Web Scraping  
+This repository contains three beginner-to-intermediate level R projects demonstrating real-world applications of data analysis and interactive dashboards using R and its ecosystem of libraries. Projects include a BMI calculator web app, personal expenses visual analysis, and web scraping of company revenue data from Wikipedia.
 
-# BMI Web App
-## Overview 
-This project involves the creation of a Body Mass Index (BMI) calculator web application using R. The app was built with the Shiny R library, providing an interactive and user-friendly interface for calculating BMI based on user inputs. The app allows users to input their weight and height, and it calculates their BMI based on these inputs. The web app has not been published but remains functional within a local environment.
-## Usage
-+ Install R and the shiny library in R
-+ The app can be launched by running the BMI_app.R script in any R environment that supports Shiny.
-+ The screenshot provided gives a visual overview of what the app interface looks like.
+---
 
-# Expenses
-## Overview
-This project involves analyzing personal monthly expenditure data from an Excel file that I received during a course. The data was modified slightly to adjust some figures, and I used R for visualization and analysis.
-## Usage
-+ Install R, RStudio, and specific R libraries such as readxl for reading Excel files, ggplot2 for creating the column chart, and plotly for creating the pie chart.
-+ The R script provided in this project reads the Excel file, performs basic data manipulation, and generates the charts.
-+ The saved images of the columns and pie charts can be reviewed to understand the distribution and trends in monthly expenditures.
+## 📈 Project 1: BMI Web App  
 
-# Web Scraping with R: List of Largest Companies in Europe by Revenue.
-## Overview
-This project involves web scraping data from Wikipedia using R. Specifically, extracted data from the following Wikipedia page: List of Largest Companies in Europe by Revenue. The second table on this page, which lists companies based on their revenue, was the focus of this project.
-## Usage
-+ Install R, RStudio, and specific libraries like rvest and dplyr for web scraping and data manipulation.
-+ The script used for this project can be run in any R environment. It will scrape the data, perform basic manipulations, and save the output as a CSV file.
-+ The CSV file can be analyzed using R or any other data analysis tool.
-## Contributor
-Tolulope Olarewaju
-## Acknowledgement
-+ Grateful to RStudio for providing a powerful and reliable system that served as the foundation for these projects.
-+ Grateful to the Data Professor (on YouTube) for deepening my understanding of R Programming.
-## License
-## Contact
-For questions or feedback, please contact olarewajutolulope26@gmail.com
+An interactive **Body Mass Index (BMI)** calculator built using **Shiny R**, designed to take user input for height and weight and return the calculated BMI along with classification ranges. Although unpublished online, the app is fully functional on a local R environment.
+
+---
+
+## 🛠 Tools & Technologies Used  
+- **R** – programming language  
+- **Shiny** – for building web apps  
+- **RStudio** – for development and testing  
+
+---
+
+## 💻 How It Works  
+- Accepts **height and weight inputs** from the user  
+- Calculates **BMI** and categorizes results (underweight, normal, overweight, etc.)  
+- Built with a clean and intuitive user interface  
+
+---
+
+## 🔧 Installation & Usage  
+1. Install **R** and **Shiny**  
+2. Open `BMI_app.R` in **RStudio** or any IDE supporting R  
+3. Run the script to launch the local web app  
+4. A screenshot of the app interface is included in the repository  
+
+---
+
+## 📈 Project 2: Monthly Expenses Analysis  
+
+This project analyzes personal **monthly expenditure** data using **R** and visual libraries like `ggplot2` and `plotly`. The data was slightly modified and sourced during a course.
+
+---
+
+## 📊 Visualization Highlights  
+- **Column Chart** – Created using `ggplot2` to show spending trends across categories  
+- **Pie Chart** – Built with `plotly` to visualize proportional spending  
+
+---
+
+## 🛠 Tools & Technologies Used  
+- **R + RStudio** – for data handling  
+- **readxl** – to read Excel files  
+- **ggplot2** – for static column charts  
+- **plotly** – for interactive pie chart visualizations  
+
+---
+
+## 💻 How It Works  
+- Reads Excel file with spending data  
+- Cleans and transforms the dataset  
+- Visualizes insights through pie and column charts  
+- Saved images of visuals included in the project folder  
+
+---
+
+## 🌐 Project 3: Web Scraping – Top European Companies by Revenue  
+
+This project scrapes data from Wikipedia’s **List of Largest Companies in Europe by Revenue** using the `rvest` library. It extracts and transforms the **second table** on the page into a structured dataset.
+
+---
+
+## 🛠 Tools & Technologies Used  
+- **R** – for scripting  
+- **rvest** – for web scraping  
+- **dplyr** – for data wrangling  
+- **readr** – for saving output as CSV  
+
+---
+
+## 💻 How It Works  
+1. Fetches table data from Wikipedia  
+2. Cleans and structures the dataset  
+3. Exports results to a CSV file  
+4. CSV can be further explored using Excel, R, or BI tools  
+
+---
+
+## 🚀 What I Achieved  
+- Built a **functional BMI calculator app** in R using Shiny  
+- Visualized **real-world financial data** with `ggplot2` and `plotly`  
+- Gained hands-on experience in **web scraping with rvest**  
+- Enhanced knowledge of **data storytelling** with R  
+
+---
+
+## 👤 Contributor  
+**Tolulope Olarewaju**
+
+---
+
+## 🙏 Acknowledgements  
+- Thanks to **RStudio** and the **Shiny** framework for enabling these projects  
+- Special thanks to **Data Professor (YouTube)** for beginner-friendly R tutorials  
+
+---
+
+## 📜 License  
+This project is open for educational use and portfolio demonstration purposes.  
+
+---
+
+## 📬 Contact  
+For questions, feedback, or collaboration, please reach out: **olarewajutolulope26@gmail.com**
+
+---
